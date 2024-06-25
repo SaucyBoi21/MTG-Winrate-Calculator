@@ -1,0 +1,19 @@
+def bo1_premier_draft_prizing(wins):
+    cost = 1500
+    match wins:
+        case 0:
+            return 50
+        case 1:
+            return 100
+        case 2:
+            return 250
+        case 3:
+            return 1000
+        case 4:
+            return 1400
+        case 5:
+            return 1600
+        case 6:
+            return 1800
+        case 7:
+            return 2200
